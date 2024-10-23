@@ -134,18 +134,50 @@ body{
     width: 100%;
     margin-top: 8px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin-left: 90px;
 }
 
 .projects img{
     width: 22%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 8.5%;
+    margin-right: center; 
     opacity: 0.8;
     transition: 0.9s;
 }
 
 .projects img:hover{
     opacity: 1;
+}
+
+.action {
+    background-color: #181818;
+    border: 0;
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #FFF; 
+    margin-left: 15px;   
+}
+
+footer{
+    width: 100%;
+    background-color: #181818;
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+footer a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer p{
+    margin-right: 12px;
+    margin-left: 10px;
 }
